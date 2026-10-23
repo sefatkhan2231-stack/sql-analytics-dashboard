@@ -94,20 +94,14 @@ A transaction-level analysis of two Technology products revealed substantial los
 
 The Lexmark MX611dhe Monochrome Laser Printer showed a similar pattern: its 10%-discount transaction earned $680, while transactions with 40% and 70% discounts generated losses. These findings suggest that high-discount transactions warrant further review. Because the analysis covers only a small number of transactions, the results indicate an association rather than proving that discounts alone caused the losses.
 
-**Business recommendation:** Review the pricing and cost structure of heavily discounted transactions, establish appropriate discount approval thresholds, and monitor product-level profit margins before offering large discounts.
-
 ### Technology Machines: Discount and Profitability Analysis
 
 An analysis of 115 Technology–Machines transactions found a substantial profitability difference between discount groups. Transactions with discounts of 30% or less generated $33,266.15 in profit on $116,155.83 in sales, achieving a 28.64% profit margin. In contrast, transactions with discounts above 30% generated $73,082.80 in sales but incurred a loss of $29,881.39, resulting in a −40.89% margin.
 
 The high-discount group accounted for approximately 38.6% of subcategory sales while generating negative profit. This highlights the importance of evaluating profitability alongside revenue when reviewing discount policies.
 
-**Recommendation:** Review high-discount transactions at the product level, assess pricing and cost structures, and introduce margin-based discount controls. Further analysis is needed to determine how much of the observed difference is attributable to discounts rather than other transaction characteristics.
-
 ### Product-Level Discount Analysis: Technology Machines
 
 A product-level investigation identified three major loss contributors among transactions with discounts above 30%. The Cubify CubeX Double Head Printer incurred a loss of $9,239.97, the Lexmark MX611dhe Printer lost $5,269.97, and the Cubify CubeX Triple Head Printer lost $3,839.99.
 
 For the Double Head and Lexmark models, lower-discount transactions were profitable, with margins of 7.50% and 22.22%, respectively. Their high-discount groups recorded margins of −146.67% and −38.27%. The Triple Head model had only one high-discount transaction in the available comparison, so further evidence is required.
-
-**Recommendation:** Prioritize a review of discount approvals, transaction pricing, and cost assumptions for the Double Head and Lexmark models. Investigate the Triple Head transaction separately before making a product-wide pricing decision.
