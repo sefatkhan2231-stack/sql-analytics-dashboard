@@ -257,7 +257,7 @@ This project practiced translating business questions into SQL, validating KPIs 
 
 Aspiring Data Analyst / Data Science Intern
 
-- GitHub: [Your GitHub Profile](https://github.com/sefatkhan2231-stack/sql-analytics-dashboard.git)
+- GitHub: [GitHub](https://github.com/sefatkhan2231-stack/sql-analytics-dashboard.git)
 
 ---
 
