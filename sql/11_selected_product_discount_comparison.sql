@@ -36,8 +36,4 @@ GROUP BY
         WHEN discount > 0.30 THEN 'Above 30%'
         ELSE '30% or less'
     END
-ORDER BY product_id,
-      CASE
-         WHEN discount > 0.30 THEN 'Above 30%'
-         ELSE '30% or less'
-      END;
+ORDER BY product_id, discount_group;

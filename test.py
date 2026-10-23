@@ -73,4 +73,3 @@ r = int(input('Enter rate:'))
 
 print('Simple Interest:', (p * t * r) / 100)
 print('Compound Interest:', p * ((1 + (r / 100)) ** t))
-

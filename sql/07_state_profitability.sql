@@ -11,7 +11,6 @@ FROM superstore
 GROUP BY state
 ORDER BY SUM(profit) ASC;
 
--- B. Ten states with the lowest total profit.
 SELECT
     state,
     ROUND(SUM(sales)::numeric, 2) AS total_sales,
@@ -25,7 +24,6 @@ GROUP BY state
 ORDER BY SUM(profit) ASC
 LIMIT 10;
 
--- C. Only states with an overall loss.
 SELECT
     state,
     ROUND(SUM(sales)::numeric, 2) AS total_sales,

@@ -1,5 +1,4 @@
 
--- A. Table size
 SELECT
     COUNT(*) AS row_count,
     COUNT(DISTINCT order_id) AS distinct_orders,
@@ -7,7 +6,7 @@ SELECT
     COUNT(DISTINCT product_id) AS distinct_products
 FROM superstore;
 
--- B. Missing values in important fields
+
 SELECT
     COUNT(*) FILTER (WHERE order_id IS NULL) AS null_order_id,
     COUNT(*) FILTER (WHERE order_date IS NULL) AS null_order_date,
@@ -18,7 +17,7 @@ SELECT
     COUNT(*) FILTER (WHERE discount IS NULL) AS null_discount
 FROM superstore;
 
--- C. Exact duplicate rows (compares all fields in each row)
+
 SELECT COUNT(*) AS duplicate_row_count
 FROM (
     SELECT *,
@@ -33,14 +32,14 @@ FROM (
 ) AS checked_rows
 WHERE rn > 1;
 
--- D. Profit distribution
+
 SELECT
     COUNT(*) FILTER (WHERE profit < 0) AS loss_making_line_items,
     COUNT(*) FILTER (WHERE profit = 0) AS zero_profit_line_items,
     COUNT(*) FILTER (WHERE profit > 0) AS profitable_line_items
 FROM superstore;
 
--- E. Date range and invalid numeric values
+
 SELECT
     MIN(order_date) AS first_order_date,
     MAX(order_date) AS last_order_date,

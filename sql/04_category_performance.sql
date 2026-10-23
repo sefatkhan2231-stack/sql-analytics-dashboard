@@ -12,4 +12,4 @@ SELECT
     SUM(quantity) AS units_sold
 FROM superstore
 GROUP BY category
-ORDER BY SUM(sales) DESC;
+ORDER BY total_sales DESC;

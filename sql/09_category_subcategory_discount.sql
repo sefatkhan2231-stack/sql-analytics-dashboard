@@ -4,7 +4,7 @@ SELECT
     sub_category,
     CASE
         WHEN discount = 0 THEN '0% discount'
-        WHEN discount <= 0.30 THEN '30% discount or less'
+        WHEN discount <= 0.30 THEN '1%-30% discount'
         ELSE 'Above 30% discount'
     END AS discount_group,
     COUNT(*) AS line_items,
@@ -23,7 +23,7 @@ GROUP BY
     sub_category,
     CASE
         WHEN discount = 0 THEN '0% discount'
-        WHEN discount <= 0.30 THEN '30% discount or less'
+        WHEN discount <= 0.30 THEN '1%-30% discount'
         ELSE 'Above 30% discount'
     END
 ORDER BY category, sub_category, discount_group;
