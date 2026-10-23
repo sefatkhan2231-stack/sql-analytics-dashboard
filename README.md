@@ -70,7 +70,7 @@ High-level business performance.
 - Profit margin by state (map)
 - Date, category, and region slicers
 
-![Executive Overview](screenshots/executive overview.png)
+![Executive Overview](screenshots/executive-overview.png)
 
 ### 2. Customer Analysis
 
@@ -81,13 +81,13 @@ All-time customer view (not affected by the slicers).
 - Recency vs. lifetime sales scatter, colored by segment
 - Top 10 customers by sales
 
-![Customer Analysis](screenshots/customer analysis.png)
+![Customer Analysis](screenshots/customer-analysis.png)
 
 ### 3. Cohort & Retention
 
 Customers are grouped by the month of their first purchase. Each cell shows the share of that cohort that ordered N months later. Row labels include the cohort size (n).
 
-![Cohort & Retention](screenshots/cohort & retention.png)
+![Cohort & Retention](screenshots/cohort-&-retention.png)
 
 ### 4. Product & Profitability
 
@@ -95,7 +95,7 @@ Customers are grouped by the month of their first purchase. Each cell shows the 
 - Sub-category x discount band margin matrix
 - The 10 products with the lowest total profit
 
-![Product & Profitability](screenshots/product profitability.png)
+![Product & Profitability](screenshots/product-profitability.png)
 
 ### 5. Regional Analysis
 
@@ -104,7 +104,7 @@ Customers are grouped by the month of their first purchase. Each cell shows the 
 - Profit by sub-category
 - Lowest-profit states
 
-![Regional Analysis](screenshots/product & regional analysis.png)
+![Regional Analysis](screenshots/product-&-regional analysis.png)
 
 ## 🔍 Key Business Findings
 
