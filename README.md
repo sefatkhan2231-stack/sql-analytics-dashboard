@@ -1,4 +1,3 @@
-
 # Superstore Sales & Profitability Analytics Dashboard
 
 An end-to-end data analytics portfolio project using **PostgreSQL, SQL, and Power BI** to analyze sales performance, profitability, customer behavior, retention, and the impact of discounts.
