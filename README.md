@@ -18,7 +18,7 @@ The analysis covers overall business performance, customer segmentation (RFM), c
 ![Movie Search](screenshots/product-&-regional-analysis.png)
 
 ### Customer Analysis
-![Recommendations](screenshots/customer-analysiss.png)
+![Recommendations](screenshots/customer-analysis.png)
 
 ## 🎯 Business Objectives
 
